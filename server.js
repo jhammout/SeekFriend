@@ -8,7 +8,7 @@ var morgan      = require('morgan');
 var mongoose    = require('mongoose');
 var config      = require('./config/database'); // get db config file
 var User        = require('./app/models/user'); // get the mongoose model
-var port        = process.env.PORT || 8080;
+var port        = process.env.PORT || 80;
 var jwt         = require('jwt-simple');
 
 // get our request parameters
