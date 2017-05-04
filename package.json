@@ -1,0 +1,26 @@
+{
+  "name": "SeefFriend",
+  "version": "0.1.0",
+  "description": "ionic project",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "mongoose": "^4.6.2",
+    "body-parser": "^1.15.2",
+    "del": "2.2.0",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "restify": "^4.3.0",
+    "restify-errors": "^4.3.0",
+    "winston": "^2.3.1"
+
+  }
+}
+
+
+
